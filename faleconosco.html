@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConserTech</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonte -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body>
+    <div id="area-cabecalho">
+        <div id="area-logo">
+                <h1><span class="branco">Conser</span><span class="amarelo">Tech</span>
+                </h1>
+        </div>
+        <div id="area-menu">
+            <ul>
+                <li class="item-navbar"><a href="index.html">Home</a></li>
+                <li class="item-navbar"><a href="servicos.html">Serviços </a></li>
+                <li class="item-navbar"><a href="contato.html">Contato</a></li>
+                <li class="item-navbar"><a href="sobre.html">Sobre</a></li>
+                <li class="item-navbar"><a href="faleconosco.html">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="centro-faleconosco">
+        <div class="container" id="formMensagem">
+            <form class="form-style" method="post" action="#">
+                    <label class="label-form" for="nome">Nome:</label>
+                    <input class="input-form" type="text" id="nome" name="name" placeholder=" nome" required>
+                    <label class="label-form" for="inputEmail">Email:</label>
+                    <input class="input-form" type="email" name="emailC" id="inputEmail" placeholder=" email@example.com">
+                    <label class="label-form" for="inputTelefone">Telefone (Informe também o DDD):</label>
+                    <input class="input-form" type="text" name="telefone" id="inputTelefone" placeholder=" 33 98888-8888">
+                    <label class="label-form" for="subject"> Mensagem: </label>
+                    <textarea class="input-form" name="mensagem" id="subject" cols="30" rows="10" required></textarea>
+                <button type="submit" class="botao-enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="conteudo-footer">
+            <div class="estamos-localizados">
+                <h4>Estamos localizados</h4><br>
+                <p>Bairro: Era uma casa muito engraçada</p>
+                <p>Rua: Dos bobos</p>
+                <p>Número: 0</p>
+            </div>
+            <div class="links-rapidos">
+                <h4>Links rápidos</h4><br>
+                <ul>
+                    <li class="item-navbar"><a href="index.html">Home</a></li>
+                    <li class="item-navbar"><a href="contato.html">Contato</a></li>
+                    <li class="item-navbar"><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="contatos">
+                <h4>Siga nossas redes sociais</h4><br>
+                <div class="redes-sociais">
+                    <a href=""><img class="icone-rede-social" src="img/instagram.png" alt=""></a>
+                    <a href=""><img class="icone-rede-social" src="img/whatsapp.png" alt=""></a>
+                    <a href=""><img class="icone-rede-social" src="img/facebook.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
